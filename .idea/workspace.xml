@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3979aade-4e31-43ec-aa6a-4c065ffd2c4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/calc/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/calc/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/http/calc/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/gen/http/calc/server/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/http/calc/server/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/gen/http/calc/server/types.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,12 +64,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640332670601</updated>
-      <workItem from="1640332671738" duration="1562000" />
+      <workItem from="1640332671738" duration="1938000" />
     </task>
+    <task id="LOCAL-00001" summary="module 修正">
+      <created>1640334568323</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640334568324</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="module 修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="module 修正" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

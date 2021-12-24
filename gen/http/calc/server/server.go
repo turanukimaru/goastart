@@ -9,7 +9,7 @@ package server
 
 import (
 	"context"
-	calc "goastart/gen/calc"
+	"github.com/turanukimaru/goastart/gen/calc"
 	"net/http"
 
 	goahttp "goa.design/goa/v3/http"

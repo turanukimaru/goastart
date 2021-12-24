@@ -8,7 +8,7 @@
 package server
 
 import (
-	calc "goastart/gen/calc"
+	"github.com/turanukimaru/goastart/gen/calc"
 )
 
 // NewAddPayload builds a calc service add endpoint payload.
