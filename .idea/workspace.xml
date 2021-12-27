@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3979aade-4e31-43ec-aa6a-4c065ffd2c4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dummies/dummies.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dummies/dummy.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dummydb/db.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dummydb/db_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dummydb/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usecase/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usecase/simple.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usecase/usecase.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calcapi/calc.go" beforeDir="false" afterPath="$PROJECT_DIR$/calcapi/calc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/calc/calc.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dummydb/db_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/dummydb/db_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +86,7 @@
       <updated>1640332670601</updated>
       <workItem from="1640332671738" duration="3337000" />
       <workItem from="1640580656594" duration="6149000" />
-      <workItem from="1640591805260" duration="198000" />
+      <workItem from="1640591805260" duration="783000" />
     </task>
     <task id="LOCAL-00001" summary="module 修正">
       <created>1640334568323</created>
@@ -116,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640334902272</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="外部モジュールを内部に取り込み、DBだけモジュール扱いにしてみる。&#10;モジュールがモジュールを参照すると循環していなくても sync が失敗しやすいみたい。">
+      <created>1640592220203</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640592220203</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +117,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="module 修正" />
-    <option name="LAST_COMMIT_MESSAGE" value="module 修正" />
+    <MESSAGE value="外部モジュールを内部に取り込み、DBだけモジュール扱いにしてみる。&#10;モジュールがモジュールを参照すると循環していなくても sync が失敗しやすいみたい。" />
+    <option name="LAST_COMMIT_MESSAGE" value="外部モジュールを内部に取り込み、DBだけモジュール扱いにしてみる。&#10;モジュールがモジュールを参照すると循環していなくても sync が失敗しやすいみたい。" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
