@@ -5,9 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3979aade-4e31-43ec-aa6a-4c065ffd2c4d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dummies/dummies.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dummies/dummy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dummydb/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dummydb/db_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dummydb/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/simple.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/usecase.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen/http/calc/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/gen/http/calc/server/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen/http/calc/server/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/gen/http/calc/server/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calcapi/calc.go" beforeDir="false" afterPath="$PROJECT_DIR$/calcapi/calc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/calc/calc.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +32,9 @@
   <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../../../../Program Files/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoDepProject">
+    <integration-enabled>true</integration-enabled>
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
@@ -44,7 +59,7 @@
     <property name="go.format.on.save.advertiser.fired" value="true" />
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dummydb" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -53,8 +68,27 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\turanukimaru\go\src\github.com\turanukimaru\goastart\dummydb" />
+      <recent name="C:\Users\turanukimaru\go\src\github.com\turanukimaru\goastart\dummies" />
+      <recent name="C:\Users\turanukimaru\go\src\github.com\turanukimaru\goastart\usecase" />
       <recent name="C:\Users\turanukimaru\go\src\github.com\turanukimaru\goastart" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build github.com/turanukimaru/goastart/cmd/calc" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goastart" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/turanukimaru/goastart/cmd/calc" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cmd/calc/main.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/turanukimaru/goastart/cmd/calc" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,7 +98,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640332670601</updated>
-      <workItem from="1640332671738" duration="1938000" />
+      <workItem from="1640332671738" duration="3337000" />
+      <workItem from="1640580656594" duration="6149000" />
+      <workItem from="1640591805260" duration="198000" />
     </task>
     <task id="LOCAL-00001" summary="module 修正">
       <created>1640334568323</created>
@@ -73,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640334568324</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="module 修正">
+      <created>1640334902272</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640334902272</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,5 +128,16 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/calcapi/calc.go</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

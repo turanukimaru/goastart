@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/dummies/dummies.iml" filepath="$PROJECT_DIR$/dummies/dummies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dummydb/dummydb.iml" filepath="$PROJECT_DIR$/dummydb/dummydb.iml" />
       <module fileurl="file://$PROJECT_DIR$/goastart.iml" filepath="$PROJECT_DIR$/goastart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/usecase/usecase.iml" filepath="$PROJECT_DIR$/usecase/usecase.iml" />
     </modules>
   </component>
 </project>

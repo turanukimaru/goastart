@@ -111,6 +111,8 @@ github.com/stretchr/testify v1.5.1/go.mod h1:5W2xD1RspED5o8YsWQXVCued0rvSQ+mT+I5
 github.com/stretchr/testify v1.6.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/stretchr/testify v1.7.0 h1:nwc3DEeHmmLAfoZucVR881uASk0Mfjw8xYJ99tb5CcY=
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
+github.com/turanukimaru/dummycase/pkg v0.0.0-20211227070128-d6c9f117dc79 h1:kl29y0NN3XmYDDyKOIf088+wX0b/K50+JrojNXs600g=
+github.com/turanukimaru/dummycase/pkg v0.0.0-20211227070128-d6c9f117dc79/go.mod h1:QA1vwy7ai2kbrPEsZxOw/cP7Gs//T6YHv+cfCj9Mhv8=
 github.com/turanukimaru/gormstart/pkg v0.0.0-20211224074251-1190c5853559 h1:a31n6iHJa/BVF4mJWPciqlvpTkjgTL6mVQg0CBVAwCA=
 github.com/turanukimaru/gormstart/pkg v0.0.0-20211224074251-1190c5853559/go.mod h1:Eo3rGa2BZlfigen0Fh49zlu/ET+wou2YNeT0AC7RQds=
 github.com/yuin/goldmark v1.3.5/go.mod h1:mwnBkeHKe2W/ZEtQ+71ViKU8L12m81fl3OWwC1Zlc8k=

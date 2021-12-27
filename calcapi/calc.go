@@ -2,9 +2,11 @@ package calcapi
 
 import (
 	"context"
-	"github.com/turanukimaru/goastart/gen/calc"
-	"github.com/turanukimaru/gormstart/pkg/dummydb"
+	"github.com/turanukimaru/goastart/dummies"
+	"github.com/turanukimaru/goastart/dummydb"
 	"log"
+
+	"github.com/turanukimaru/goastart/gen/calc"
 )
 
 // calc service example implementation.
@@ -21,6 +23,9 @@ func NewCalc(logger *log.Logger) calc.Service {
 // Add implements add.
 func (s *calcsrvc) Add(ctx context.Context, p *calc.AddPayload) (res int, err error) {
 	//	s.logger.Print("calc.add")
+	dummy := dummies.Dummy{}
+	err = dummy.Hello()
+	err = dummy.Allow()
 	err = dummydb.DbAccess()
 	return p.A + p.B, err
 }

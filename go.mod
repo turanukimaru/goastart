@@ -4,7 +4,6 @@ go 1.17
 
 require (
 	github.com/stretchr/testify v1.7.0
-	github.com/turanukimaru/gormstart/pkg v0.0.0-20211224074251-1190c5853559
 	goa.design/goa/v3 v3.5.3
 )
 
