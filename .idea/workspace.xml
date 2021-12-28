@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3979aade-4e31-43ec-aa6a-4c065ffd2c4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/doc.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dummies/dummy.go" beforeDir="false" afterPath="$PROJECT_DIR$/dummies/dummy.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dummydb/db.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dummydb/db_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goastart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/goastart.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +26,7 @@
   <component name="GOROOT" url="file://$PROJECT_DIR$/../../../Program Files/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GoDepProject">
     <integration-enabled>true</integration-enabled>
@@ -60,7 +56,7 @@
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gormstart" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -119,7 +115,11 @@
       <workItem from="1640332671738" duration="3337000" />
       <workItem from="1640580656594" duration="6149000" />
       <workItem from="1640591805260" duration="1137000" />
-      <workItem from="1640593151631" duration="1429000" />
+      <workItem from="1640593151631" duration="1941000" />
+      <workItem from="1640668765097" duration="93000" />
+      <workItem from="1640668866698" duration="20000" />
+      <workItem from="1640669697557" duration="53000" />
+      <workItem from="1640669777466" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="module 修正">
       <created>1640334568323</created>
@@ -149,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640592825197</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="サブディレクトリに go.mod があるとサブモジュールになるので削除。&#10;上位の go.mod は配下のディレクトリをソースとして使うときに go.mod があるディレクトリは除外するようだ。&#10; ...じゃあサブモジュールの意味はなんだ？">
+      <created>1640599816214</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640599816214</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

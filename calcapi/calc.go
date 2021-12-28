@@ -3,7 +3,7 @@ package calcapi
 import (
 	"context"
 	"github.com/turanukimaru/goastart/dummies"
-	"github.com/turanukimaru/goastart/dummydb"
+	"github.com/turanukimaru/gormstart/pkg/dummydb"
 	"log"
 
 	"github.com/turanukimaru/goastart/gen/calc"
